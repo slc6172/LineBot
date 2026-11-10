@@ -1,0 +1,11 @@
+{
+  "name": "linebot-gas",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "LINE bot on Google Apps Script (pure JS, V8). Tests run in a fake GAS world via node:test + vm.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}

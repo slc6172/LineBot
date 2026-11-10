@@ -1,0 +1,21 @@
+# 機密與本機設定(clasp 實際設定含 scriptId,不要上傳;範本是 .clasp.json.template)
+.clasp.json
+.clasprc.json
+.env
+.env.*
+*.pem
+*.key
+
+# 相依套件與日誌
+node_modules/
+npm-debug.log*
+
+# 程式碼審查工具產出(可能含弱點細節)
+.mycr/
+
+# 編輯器與作業系統
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

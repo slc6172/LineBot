@@ -1,0 +1,9 @@
+# 所有文字檔由 Git 自動辨識並標準化
+* text=auto
+
+# Windows CMD 批次檔：強制 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Linux/macOS Shell 腳本：強制 LF
+*.sh text eol=lf
